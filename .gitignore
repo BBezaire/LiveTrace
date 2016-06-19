@@ -2,3 +2,5 @@ Tests/Test-ParseETL/Test-ParseETL/obj/Debug/Test-ParseETL.csproj.FileListAbsolut
 *.cache
 Tests/Tail-ETL/Tail-ETL/bin/*
 Tests/Tail-ETL/Tail-ETL/obj/*
+Tests/Test-ParseETL/Test-ParseETL/bin/*
+Tests/Test-ParseETL/Test-ParseETL/obj/*
