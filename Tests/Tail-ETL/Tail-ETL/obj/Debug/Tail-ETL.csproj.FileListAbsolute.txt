@@ -1,0 +1,6 @@
+S:\Users\Brandon\Documents\GitHub\LiveTrace\Tests\Tail-ETL\Tail-ETL\bin\Debug\Tail-ETL.exe.config
+S:\Users\Brandon\Documents\GitHub\LiveTrace\Tests\Tail-ETL\Tail-ETL\obj\Debug\Tail-ETL.csprojResolveAssemblyReference.cache
+S:\Users\Brandon\Documents\GitHub\LiveTrace\Tests\Tail-ETL\Tail-ETL\bin\Debug\Tail-ETL.exe
+S:\Users\Brandon\Documents\GitHub\LiveTrace\Tests\Tail-ETL\Tail-ETL\bin\Debug\Tail-ETL.pdb
+S:\Users\Brandon\Documents\GitHub\LiveTrace\Tests\Tail-ETL\Tail-ETL\obj\Debug\Tail-ETL.exe
+S:\Users\Brandon\Documents\GitHub\LiveTrace\Tests\Tail-ETL\Tail-ETL\obj\Debug\Tail-ETL.pdb
