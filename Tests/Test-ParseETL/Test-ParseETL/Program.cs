@@ -150,9 +150,17 @@ namespace Test_ParseETL
                                 long timestamp = (*eTLCACHERECORDPointer).Timestamp;
                                 ushort level = (*eTLCACHERECORDPointer).Level;
                                 uint correlationId = (*eTLCACHERECORDPointer).CorrelationId;
-                                int count = num2 - (int)80;
-                                var SipTrace = System.Text.Encoding.Default.GetString(numArray,80, count);
-                                Console.WriteLine(SipTrace);
+
+                                int tstart = 80 + (*eTLCACHERECORDPointer).ComponentNameLength + 16;
+                                if (tstart < num2)
+                                {
+                                    int tcount = num2 - tstart;
+                                    var SipTrace = System.Text.Encoding.Default.GetString(numArray, tstart, tcount);
+                                    Console.WriteLine(SipTrace);
+                                    Console.WriteLine("-----------------------------------------------------------------------------");
+                                }
+                                else { }
+                                
                                 if (ticks == DateTime.MinValue.Ticks || timestamp < ticks)
                                 {
                                     ticks = timestamp;
