@@ -161,6 +161,7 @@ namespace Tail_ETL
         {
             var ETL = new ETLFile();
             ETL.ETLpos = 0;
+            ETL.cacheFile = System.Configuration.ConfigurationManager.AppSettings["ETLfile"];
             while (true)
             {
                 ETL = ReadETL("test.cache", ETL.ETLpos);
